@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(180, 161, 161);
+    background-image: url("https://i.imgur.com/O46bAem.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#pupupWindow{
+    background: black;
+    display: none;
+    margin-top: 60px;
+    border: 0;
+    border-radius: 3px;
+    color:rgb(165, 5, 228);
+}
+
+.center {
+    margin: auto;
+    margin-top: 200px;
+    width: 50%;
+    border: 3px solid rgb(165, 5, 228);
+    padding: 10px;
+    border-radius: 14px;
+    background-color: rgba(255, 255, 255, .6);
+    color:#3c567e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size:20px;
+    overflow: hidden;
+}
+
+#Q{
+    text-align: center;
+}
+
+.A2Class{
+    text-align: center;
+    float:right;
+    margin-right: 200px;
+}
+
+
+.A1Class{
+    text-align: center;
+}
+
+hr{
+    width:75%;
+}
+
+button{
+    border: 2px rgb(165, 5, 228) solid;
+    padding:10px;
+    background-color: white;
+    border-radius: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(118, 4, 163);
+    font-weight: bold;
+}
+
+button:hover{
+    border: 2px rgb(118, 4, 163) solid;
+    cursor:-webkit-grab;
+    background-color: rgb(248, 228, 255);
+}
+
+button:active{
+    border: 2px rgb(71, 0, 99) solid;
+    cursor:-webkit-grabbing;
+    background-color: rgb(189, 160, 199);
+}
+
+
+#popup{
+    background-size: cover;
+    background-color: rgba(255, 255, 255, .0);
+    height:98vh;
+    position: unset;
+    overflow: hidden;
+}
+
+
+p span{
+    padding: 30px;
+}
+
+p span span{
+    text-align: right;
+    padding: 0;
+}
+
+.restarter{
+    font-size: 16px;
+    padding: 120px;
+}
